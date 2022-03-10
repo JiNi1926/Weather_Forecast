@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&family=Poppins:wght@100&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    background-image: url(https://source.unsplash.com/1600x900/?dark);
+    /*background-image: url(/Weather_project/Images/sunset.webp);*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    overflow:hidden;
+}
+
+.main-container{
+   
+    margin: 15px 15px;
+    padding: 20px 70px;
+    color: honeydew;
+}
+
+.time{
+    font-size: 70px;
+    font-weight: 100;
+}
+
+.date{
+    font-size: 17px;
+    margin-left: 8px;
+}
+.time .am-pm{
+    font-size: 30px;
+}
+
+.zone{
+    font-size: 18px;
+}
+.border-one{
+    display: inline-grid;
+    margin: 20px 0px;
+    padding:15px 10px;
+    background-color: #ffffff10;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur( 12px );
+    padding:15px;
+    border: 1px solid rgb(126, 224, 208);
+    box-shadow: 0px 0px 10px;
+    border-radius: 10px;
+}
+
+.border-one .border{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 6px;
+    margin-right: 6px;
+    padding: 3px;
+   
+}
+.part1{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+ }
+
+.thrid-container{
+    color: white;
+    margin: 5px 15px;
+    background-color: rgb(52, 52, 90);
+    background-color: #ffffff10;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur( 12px );
+    position: fixed;
+    bottom: 0px;
+    display: flex;
+    width:97.5%;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.thrid-container .weather-forecast{
+    margin: 20px 40px;
+  
+}
+
+.thrid-container .weather-forecast .thrid-day{
+    border: 1px solid rgb(230, 148, 81);
+    border-radius: 4px;
+    padding: 8px;
+    box-shadow: 0px 0px 4px;
+    width: 140px;
+}
+input#search {
+    border-color: rgb(116, 170, 231);
+    background-color: lightgrey;
+    border-radius: 8px;
+    box-shadow: 0px opx 5px;
+    border: 1px solid rgba(82, 127, 253, 0.911);
+    padding: 4px;
+}
+input#search1 {
+    border-color: cadetblue;
+    background-color: lightgrey;
+    border-radius: 8px;
+    box-shadow: 0px opx 5px;
+    border: none;
+    padding: 4px;
+    box-shadow: 0px 0px 3px;
+}
+
+.search{
+    display: inline;
+    
+}
+
+.search button{
+    border: none;
+    border-radius: 6px;
+    padding: 3px;
+}
+
+.border-one:hover{
+    background-color: #dddddd03;
+    cursor: pointer;
+}
+
+.date:hover{
+    cursor: pointer;
+    color: rgb(24, 24, 71);
+}
+
+.search input:hover{
+    box-shadow:0px 0px 15px ;
+}
+.search button:hover{
+    box-shadow:0px 0px 15px ;
+}

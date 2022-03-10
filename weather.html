@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="weather.css">
+</head>
+
+<body>
+    <div class = "main-container">        
+        <div class="part1">  
+            <section class="left">
+                <div class="time" id="time">
+                    12.00 <span class="am-pm">Am</span>
+                </div>
+                <div class="date" id="date">
+                    <span>Monday, 06 May</span>
+                </div>
+
+                <div class="border-one">
+                    <div class="border" id="main-temp">
+                        <p>Temperature :</p>
+                        <p id="temp_value">31°C</p>
+                    </div>
+                    <div class="border" id="weather">
+                                <p>Weather :</p>
+                                <p id="weather_value">Foggy</p>
+                    </div>
+                    
+                    <div class="border" id="humidity">
+                                <p>Humidity :</p>
+                                <p id="humidity_value">69%</p>
+                    </div>
+                    <div class="border" id="wind-speed">
+                                <p>Wind Speed :</p>
+                                <p id="wind_value">12km/hr</p>
+                    </div>
+                </div>
+            </section>
+            
+            <div class="zone">
+                <div class="timezone" id="timezone">
+                <span id="cityName"></span>
+            </div>
+        </div>
+    
+        <div class = "search">
+            <input type="text" name="search" id="search" placeholder="Enter The City Name">
+            <button onclick="city()"><img src="https://img.icons8.com/ios-glyphs/14/000000/search--v1.png"/></button>
+        </div>
+    </div>    
+</div>
+    
+
+<div class = "thrid-container">
+    <div class="weather-forecast">
+        <div class="thrid-day">
+            <span id="day1">Monday</span>
+            <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather">
+            <p id="d1">Day  : -- </p>
+            <p id="n1">Night: -- </p>
+        </div>
+    </div>
+    <div class="weather-forecast">
+        <div class="thrid-day">
+            <span id="day2">Tuesday</span>
+            <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather">
+            <p id="d2">Day  : -- </p>
+            <p id="n2">Night: -- </p>
+        </div>
+    </div>
+    <div class="weather-forecast">
+        <div class="thrid-day">
+            <span id="day3">Wednesday</span>
+            <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather">
+            <p id="d3">Day  : -- </p>
+            <p id="n3">Night: -- </p>
+        </div>    
+    </div>
+    <div class="weather-forecast">
+        <div class="thrid-day">
+            <span id="day4">Thursday</span>
+            <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather">
+            <p id="d4">Day  : -- </p>
+            <p id="n4">Night: -- </p>
+        </div>
+    </div>
+    <div class="weather-forecast">
+        <div class="thrid-day">
+            <span id="day5">Friday</span>
+            <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather">
+            <p id="d5">Day  : -- </p>
+            <p id="n5">Night: -- </p>
+        </div>
+    </div>
+    <div class="weather-forecast">
+        <div class="thrid-day">
+            <span id="day6">Saturday</span>
+            <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather">
+            <p id="d6">Day  : -- </p>
+            <p id="n6">Night: -- </p>
+        </div>
+    </div>
+    <div class="weather-forecast">
+        <div class="thrid-day">
+            <span id="day7">Sunday</span>
+            <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather">
+            <p id="d7">Day  : -- </p>
+            <p id="n7">Night: -- </p>
+        </div>
+    </div>
+</div>
+<script src="weather.js"></script>
+</body>
+</html>
